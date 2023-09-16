@@ -1,0 +1,349 @@
+/* font-family: 'Raleway', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    background-size: cover;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+    background: gray;
+    border-radius: 8px;
+    margin: 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: gray;
+    border-radius: 8px;
+    margin: 1rem;
+}
+.container{
+
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.left{
+    flex-basis: 50%;
+    font-size: 25px;
+}
+:right{
+    flex-basis: 50%;
+}
+.left h1{
+    color: gray;
+}
+.left p{
+    line-height: 2.5rem;
+}
+#hire{
+    /* text decoration remove the underline from link*/
+    text-decoration: none; 
+    background: gray;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    color: black;
+}
+#hire:hover{
+    background-color: red;
+    color: white;
+}
+#about{
+    padding: 50px 50px;
+    height: 100vh;
+    background: gold linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}                      
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}  
+.section-info h2{
+    font-size: 40px;
+} 
+#p-1{
+    color: white;
+}                  
+.section-info p{
+    font-size: 20px;
+    color: gray;
+}
+@keyframes mehedi{
+    from{background-color: red; width: 10px; height: 10px; border-radius: 3px;}
+    to{background-color: gray;}
+}
+.animation1{
+    width: 20%;
+    height: 8vh;
+    background: gray;
+    text-align: center;
+    animation-name: mehedi;
+    animation-delay: 3s;
+    transition: 2s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}                                              
+.curriculum{
+    margin-top: 1.1rem;
+    width: 100%;
+    height: 80vh;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.education{
+    width: 50%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.education h3{
+    padding-top: 20px;
+}
+.contact{
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    text-decoration: none;
+    /* margin-top: 1.1rem; */
+}
+#skills{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 30px;
+}
+.section-info2 h1{
+    font-size: 250px;
+}
+.section-info2 p{
+    font-size: 50px;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(45, 52, 54);
+    padding: 50px;
+}
+.skills-left{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.skills-left p{
+    font-size: 22px;
+}
+.skills-right{
+    flex-basis: 50%;
+}
+progress{
+    width: 70%;
+}
+.progress-div{
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: justify;
+}
+#services{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 50px;
+}
+.section-info3 h1{
+    font-size: 60px;
+}
+.section-info3 p{
+    font-size: 30px;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-box{
+    flex-basis: 20%;
+    text-align: center;
+    box-shadow: 3px 6px 9px gray;
+    padding: 1px;
+    margin-top: 20px;
+}
+.services-box:hover{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    /* transition: 0.4s; */
+}
+.services-box img{
+    width: 50%;
+}
+#project{
+    padding: 100px 50px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+}
+.section-info5{
+    font-weight: bold;
+    text-align: center;
+}  
+.section-info5 h1{
+    font-size: 60px;
+    color: red;
+} 
+.projectall{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.square1 {
+    width: 50%; /* Each square takes half the width of the viewport */
+    padding-top: 30%; /* Sets the height of the square to be equal to its width */
+    border: 1px solid #2980b9; /* Example border color */
+    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    color: white;
+}
+.square1:hover{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    /* transition: 0.4s; */
+}
+.square2{
+    width: 50%;
+    padding-top: 30%;
+    /* border: 1px solid #2980b9;  */
+    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    color: white;
+}
+.square2:hover{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    /* transition: 0.4s; */
+}
+.square3{
+    width: 50%;
+    padding-top: 30%;
+    /* border: 1px solid #2980b9;  */
+    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    color: white;
+}
+.square3:hover{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    /* transition: 0.4s; */
+}
+.square4{
+    width: 50%;
+    padding-top: 30%;
+    border: 1px solid #2980b9; /* Example border color */
+    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    color: white;
+}
+.square4:hover{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+    /* transition: 0.4s; */
+}
+
+
+
+#contact{
+    padding: 100px 50px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png");
+}
+.section-info4{
+    font-weight: bold;
+    text-align: center;
+}  
+.section-info4 h1{
+    font-size: 60px;
+    color: red;
+}                  
+.section-info4 p{
+    font-size: 20px;
+    color: gray;
+}
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left{
+    flex-basis: 50%;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-right form{
+    text-align: center;
+}
+.contact-right form h2{
+    margin-bottom: 20px;
+}
+.contact-right form input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-right form textarea{
+    width: 60%;
+    padding: 10px;
+}                 
+#footer{
+    /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("bammer1.png"); */
+    background: gray;
+    /* margin-top: 2%; */
+    letter-spacing: 15px;
+}
+/* Scrollbar custom */
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    /* background: linear-gradient(transparent,red); */
+    background: red;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,black);
+}
+
+
