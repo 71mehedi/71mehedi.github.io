@@ -204,7 +204,7 @@ progress{
     flex-basis: 20%;
     text-align: center;
     box-shadow: 3px 6px 9px gray;
-    padding: 1px;
+    padding:20px;
     margin-top: 20px;
 }
 .services-box:hover{
@@ -227,6 +227,10 @@ progress{
     font-size: 60px;
     color: red;
 } 
+.section-info5 p{
+    font-size: 22px;
+    color: white;
+} 
 .projectall{
     margin: 0%;
     padding: 0%;
@@ -237,10 +241,10 @@ progress{
     min-height: 100vh;
 }
 .square1 {
-    width: 50%; /* Each square takes half the width of the viewport */
-    padding-top: 30%; /* Sets the height of the square to be equal to its width */
-    border: 1px solid #2980b9; /* Example border color */
-    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    width: 50%; 
+    padding-top: 30%; 
+    border: 1px solid #2980b9; 
+    box-sizing: border-box; 
     color: white;
 }
 .square1:hover{
@@ -251,7 +255,7 @@ progress{
     width: 50%;
     padding-top: 30%;
     /* border: 1px solid #2980b9;  */
-    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    box-sizing: border-box; 
     color: white;
 }
 .square2:hover{
@@ -262,7 +266,7 @@ progress{
     width: 50%;
     padding-top: 30%;
     /* border: 1px solid #2980b9;  */
-    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    box-sizing: border-box; 
     color: white;
 }
 .square3:hover{
@@ -272,8 +276,8 @@ progress{
 .square4{
     width: 50%;
     padding-top: 30%;
-    border: 1px solid #2980b9; /* Example border color */
-    box-sizing: border-box; /* Include padding and border in the square's dimensions */
+    border: 1px solid #2980b9; 
+    box-sizing: border-box; 
     color: white;
 }
 .square4:hover{
@@ -297,8 +301,8 @@ progress{
     color: red;
 }                  
 .section-info4 p{
-    font-size: 20px;
-    color: gray;
+    font-size: 22px;
+    color: white;
 }
 .contact-row{
     display: flex;
@@ -338,12 +342,98 @@ progress{
     width: 12px;
 }
 ::-webkit-scrollbar-thumb{
-    /* background: linear-gradient(transparent,red); */
     background: red;
     border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover{
     background: linear-gradient(transparent,black);
 }
-
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; 
+    }
+    .menu {
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+        padding: 20px;
+    }
+    .menu.show {
+        display: flex;
+    }
+    .menu a {
+        font-size: 1.2rem;
+        margin: 10px 0;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .left p{
+        text-align: inherit ;
+    }
+    #about{
+        padding: 473px 50px;
+        margin: 1px -2px;
+        text-align: justify;
+    }
+    .right{
+        padding: 20px 0px 13px 1px;
+    }
+    .ok{
+        padding: auto;
+    }
+    .menu-toggle{
+        padding: 1px 54px 31px 23px;
+    }
+    .fa {
+        display: inline-block;
+        font-size: 24px; 
+    }
+    .section-info2 h1{
+        font-size: 100px;
+    }
+    .section-info2 p{
+        font-size: 40px;
+        padding: 22px;
+    }
+    .skills-left p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-block-end: 23px;
+    }
+    .skills-left button{
+        font-size: 10px;
+        padding-block-end: 23px;
+    }
+    #hire{
+        margin-block-end: 23px;
+    }
+    .skills-right {
+        flex-basis: 50%;
+        margin: 10px 10px 10px -43px;
+    }
+    #skills {
+        padding: 100px 30px;
+    }  
+    #services {
+       padding: -12px 39px
+    }
+    .progress-div{
+        line-height: 38px;
+    }
+    #project {
+        padding: 401px 0px;
+        margin: auto;
+       
+    }
+    .projectall{
+        margin: -126px;
+        padding: 39%;
+        min-height: 60vh;
+    }
+    .contact-left img{
+        height: 150px;
+        
+    }
+}
 
